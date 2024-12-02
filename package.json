@@ -1,0 +1,22 @@
+{
+  "name": "blockchain-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fabric-chaincode-node start",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "fabric-ca-client": "^2.2.20",
+    "fabric-contract-api": "^2.5.7",
+    "fabric-network": "^2.2.20",
+    "fabric-shim": "^2.5.7",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  }
+}
